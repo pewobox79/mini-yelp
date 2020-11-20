@@ -4,7 +4,7 @@ import { Card, CardDeck, Badge } from 'react-bootstrap';
 
 function Cards() {
     return (
-        <CardDeck>
+        <CardDeck className="m-2">
         <Card>
           <Card.Body>
             <Card.Title>Card title</Card.Title>
@@ -13,6 +13,7 @@ function Cards() {
               additional content. This content is a little bit longer.
             </Card.Text>
           </Card.Body>
+          <Badge className="m-2" variant="secondary">Somethning missing</Badge>
         </Card>
         <Card>   
           <Card.Body>
@@ -22,6 +23,7 @@ function Cards() {
               content.{' '}
             </Card.Text>
           </Card.Body>
+          <Badge className="m-2" variant="secondary">Somethning missing</Badge>
         </Card>
         <Card>
           <Card.Body>
